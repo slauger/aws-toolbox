@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := build
 
-CONTAINER_NAME=aws-toolbox
+CONTAINER_NAME=docker.io/slauger/aws-toolbox
 CONTAINER_TAG=latest
 
 build:
