@@ -1,0 +1,16 @@
+---
+schemaVersion: "2.0.0"
+
+commandTests:
+  - name: "terraform works"
+    command: "terraform"
+    args: ["version"]
+  - name: "packer works"
+    command: "packer"
+    args: ["version"]
+  - name: "vault works"
+    command: "vault"
+    args: ["version"]
+  - name: "helm works"
+    command: "helm"
+    args: ["version"]
