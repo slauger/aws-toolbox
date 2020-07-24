@@ -3,7 +3,7 @@ FROM hashicorp/packer:1.5.5@sha256:5ebe2fff60ee439d251f2bcbbb71efef6918439dfd044
 FROM library/vault:1.5.0@sha256:93bffce899095d5b085273155515741311bb2dcdd52fb56fbe0f188f71c910fe as vault
 FROM mikefarah/yq:3.3.2@sha256:85cdee895cf081d0abf41a1decdac2725b33e2cbab2adb84e9998ce15835bc3a as yq
 FROM alpine/helm:3.2.4@sha256:47d04364afb9b246484aff708c03e5216295c485d21fafe4c10841d81108700a as helm
-FROM library/ubuntu:18.04@sha256:e5dd9dbb37df5b731a6688fa49f4003359f6f126958c9c928f937bec69836320
+FROM library/ubuntu:20.04@sha256:d5a6519d9f048100123c568eb83f7ef5bfcad69b01424f420f17c932b00dea76
 
 # basic toolings
 RUN apt-get update \
