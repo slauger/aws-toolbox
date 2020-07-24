@@ -1,7 +1,7 @@
 FROM hashicorp/terraform:0.12.24@sha256:53fb1c0a78c8bb91c4a855c1b352ea7928f6fa65f8080dc7a845e240dd2a9bee as terraform
 FROM hashicorp/packer:1.5.5@sha256:5ebe2fff60ee439d251f2bcbbb71efef6918439dfd04415fc1ab5bd5a212c591 as packer
 FROM library/vault:1.4.0@sha256:b8c73943dd14c56dda07500274232daca304d34598ed2cdbe0b6919bce9d72e3 as vault
-FROM mikefarah/yq:2.4.2@sha256:c47d38e1ef155438b000e31c24ffa5d90ea7235eeace679e60b84b09d75b6041 as yq
+FROM mikefarah/yq:3.3.2@sha256:85cdee895cf081d0abf41a1decdac2725b33e2cbab2adb84e9998ce15835bc3a as yq
 FROM alpine/helm:3.1.2@sha256:721f3b3073f0e7ed7e0ba48794310c5e532ff7175cfa448fee2e529f7f383a9f as helm
 FROM library/ubuntu:18.04@sha256:e5dd9dbb37df5b731a6688fa49f4003359f6f126958c9c928f937bec69836320
 
