@@ -4,5 +4,15 @@ updates:
   directory: "/"
   schedule:
     interval: daily
-    time: "04:00"
   open-pull-requests-limit: 10
+- package-ecosystem: python
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+automerged_updates:
+- match:
+    update_type:
+    - "security:patch"
+    - "semver:patch"
+    - "semver:minor"
