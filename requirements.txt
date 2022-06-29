@@ -4,7 +4,7 @@ colorama==0.4.5
 docutils==0.16
 jmespath==0.10.0
 pyasn1==0.4.8
-python-dateutil==2.8.1
+python-dateutil==2.8.2
 PyYAML==5.4.1
 rsa==4.7
 s3transfer==0.3.3
