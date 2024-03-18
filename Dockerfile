@@ -2,7 +2,7 @@ FROM hashicorp/terraform:1.2.7@sha256:8e4d010fc675dbae1eb6eee07b8fb4895b04d14415
 FROM hashicorp/packer:1.8.3@sha256:ac62cbd11b86a43d5efef0e27432ebea282b15a621e8e0e2ade1e1f856400fec as packer
 FROM library/vault:1.11.2@sha256:f2c0f82d1bde88a6608f26468258306e48ac46a4d353db2151e26e0fd00928bb as vault
 FROM mikefarah/yq:3.4.1@sha256:40c7256194d63079e3f9efad931909d80026400dfa72ab42c3120acd5b840184 as yq
-FROM alpine/helm:3.9.3@sha256:7924d066b0e2072cf42036cb837deb0e4f274a0dc4e41bf99ea66b145821e928 as helm
+FROM alpine/helm:3.14.3@sha256:4d922280422ca1fc1a10f0358e544c6f04fdacbadf792296b60142915d630514 as helm
 FROM library/ubuntu:18.04@sha256:8aa9c2798215f99544d1ce7439ea9c3a6dfd82de607da1cec3a8a2fae005931b
 
 # basic toolings
